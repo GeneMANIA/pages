@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Virtual machine &middot; GeneMANIA
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+
+    <h2>Links</h2>
+
+    <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+    <a class="sidebar-nav-item" href="http://genemania.org">Use GeneMANIA</a>
+    <a class="sidebar-nav-item" href="https://github.com/GeneMANIA">Source code</a>
+
+    
+
+    <h2>Help &amp; docs</h2>
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/contact/">Contact</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/cytoscape-app/">Cytoscape app</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/data/">Data archive</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/faq/">FAQ</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/help/">Help</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/media/">Media</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/network-data-processing/">Network data processing</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/privacy/">Privacy</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/vm/">Virtual machine</a>
+        
+      
+    
+  </nav>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">GeneMANIA</a>
+            <small>Help and documentation</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Virtual machine</h1>
+  <p>GeneMANIA helps you predict the function of your favourite genes and gene sets on your own machine.</p>
+
+<p>The interface is backed by powerful analysis software and a large data warehouse containing extensive amounts of existing functional genomics data. The GeneMANIA virtual machine provides a local copy of the GeneMANIA webserver. Everything is self contained, and no internet access is required to use it.</p>
+
+<h2 id="about-the-alpha-release">About the ALPHA RELEASE</h2>
+
+<p>This release has not been thoroughly tested and no guarantee is made that it will work properly. Please keep this in mind if you decide to try it out.</p>
+
+<h2 id="minimum-system-requirements">Minimum System Requirements</h2>
+
+<ul>
+  <li>4 GB RAM on the host operating system</li>
+  <li>Currently only tested on VMware Fusion 2 and 3</li>
+</ul>
+
+<h2 id="download-virtual-machine">Download Virtual Machine</h2>
+
+<ul>
+  <li>Download <a href="http://download.baderlab.org/GeneMANIA/vm/gm_prod_2.6/GeneMANIA.zip">GeneMANIA 2.6</a> and the <a href="http://download.baderlab.org/GeneMANIA/vm/gm_prod_2.6/md5sum.txt">MD5 checksum</a></li>
+  <li>Download <a href="http://download.baderlab.org/GeneMANIA/vm/gm_qa_2.7/GeneMANIA_QA.zip">GeneMANIA QA 2.7</a> and the <a href="http://download.baderlab.org/GeneMANIA/vm/gm_qa_2.7/md5sum_qa.txt">the MD5 checksum</a></li>
+</ul>
+
+<h2 id="installation-instructions">Installation Instructions</h2>
+
+<ol>
+  <li>Unzip, and load it using VMware. If it asks you if you moved or</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>copied the image, pick &amp;#8220;Moved&amp;#8221;.   2. To log in, the user is genemania and the password is genemania.   3. GeneMANIA and all its components are launched when the system boots
+
+up, so you can launch Firefox at any time and it will take you to the
+
+local GeneMANIA instance.   4. A text file on the desktop contains more information about starting/
+
+stopping/managing the GeneMANIA components.&lt;/p&gt;
+</code></pre>
+</div>
+
+<h2 id="using-the-virtual-machine">Using the Virtual Machine</h2>
+
+<p>While the GeneMANIA virtual machine is self contained and does not require internet access, the recommended way of using it is to run it on a dedicated machine on a local area network. This allows anyone to access the GeneMANIA virtual machine over the network using their preferred operating system and browser.</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

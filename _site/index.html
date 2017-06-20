@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      About &middot; GeneMANIA
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+
+    <h2>Links</h2>
+
+    <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+    <a class="sidebar-nav-item" href="http://genemania.org">Use GeneMANIA</a>
+    <a class="sidebar-nav-item" href="https://github.com/GeneMANIA">Source code</a>
+
+    
+
+    <h2>Help &amp; docs</h2>
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/contact/">Contact</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/cytoscape-app/">Cytoscape app</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/data/">Data archive</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/faq/">FAQ</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/help/">Help</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/media/">Media</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/network-data-processing/">Network data processing</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/privacy/">Privacy</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/vm/">Virtual machine</a>
+        
+      
+    
+  </nav>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">GeneMANIA</a>
+            <small>Help and documentation</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">About</h1>
+  <h2 id="genemania-helps-you-predict-the-function-of-your-favourite-genes-and-gene-sets">GeneMANIA helps you predict the function of your favourite genes and gene sets.</h2>
+
+<p>GeneMANIA finds other genes that are related to a set of input genes, using a very large set of functional association data. Association data include protein and genetic interactions, pathways, co-expression, co-localization and protein domain similarity. You can use GeneMANIA to find new members of a pathway or complex, find additional genes you may have missed in your screen or find new genes with a specific function, such as protein kinases. Your question is defined by the set of genes you input.</p>
+
+<p>If members of your gene list make up a protein complex, GeneMANIA will return more potential members of the protein complex. If you enter a gene list, GeneMANIA will return connections between your genes, within the selected datasets. <a href="/help">Learn more…</a></p>
+
+<p>GeneMANIA is also accessible via a <a href="/app">Cytoscape app</a>, designed for power users.</p>
+
+<p>GeneMANIA is actively developed at the <a href="http://www.utoronto.ca/">University of Toronto</a>, in the <a href="http://www.thedonnellycentre.utoronto.ca/">Donnelly Centre for Cellular and Biomolecular Research</a>, in the labs of <a href="http://www.baderlab.org/">Gary Bader</a> and <a href="http://morrislab.med.utoronto.ca/">Quaid Morris</a>.  GeneMANIA development was originally funded by <a href="http://www.genomecanada.ca/">Genome Canada</a>, through the <a href="http://www.ontariogenomics.ca/">Ontario Genomics Institute</a> (2007-OGI-TD-05) and is now funded by the <a href="http://www.mri.gov.on.ca/english/programs/orf/gl2/program.asp">Ontario Ministry of Research and Innovation</a>. GeneMANIA is also supported by the <a href="http://nrnb.org">National Resource for Network Biology</a> (P41 GM103504).</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

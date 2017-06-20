@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      FAQ &middot; GeneMANIA
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+
+    <h2>Links</h2>
+
+    <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+    <a class="sidebar-nav-item" href="http://genemania.org">Use GeneMANIA</a>
+    <a class="sidebar-nav-item" href="https://github.com/GeneMANIA">Source code</a>
+
+    
+
+    <h2>Help &amp; docs</h2>
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/contact/">Contact</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/cytoscape-app/">Cytoscape app</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/data/">Data archive</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/faq/">FAQ</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/help/">Help</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/media/">Media</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/network-data-processing/">Network data processing</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/privacy/">Privacy</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/vm/">Virtual machine</a>
+        
+      
+    
+  </nav>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">GeneMANIA</a>
+            <small>Help and documentation</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">FAQ</h1>
+  <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<p><strong>Table of Contents</strong></p>
+
+<ul>
+  <li><a href="#what-is-genemania">What is GeneMANIA?</a></li>
+  <li><a href="#what-biological-questions-can-genemania-answer">What biological questions can GeneMANIA answer?</a></li>
+  <li><a href="#how-do-i-interpret-genemania8217s-results">How do I interpret GeneMANIA’s results?</a></li>
+  <li><a href="#what-makes-genemania-unique">What makes GeneMANIA unique?</a></li>
+  <li><a href="#how-does-the-genemania-algorithm-work">How does the GeneMANIA algorithm work?</a></li>
+  <li><a href="#how-do-i-interpret-the-network-weights">How do I interpret the network weights?</a></li>
+  <li><a href="#what-gene-identifiers-does-genemania-recognize">What gene identifiers does GeneMANIA recognize?</a></li>
+  <li><a href="#how-are-networks-computed">How are networks computed?</a></li>
+  <li><a href="#where-can-i-download-genemania-data">Where can I download GeneMANIA data?</a></li>
+  <li><a href="#how-do-i-cite-genemania">How do I cite GeneMANIA?</a></li>
+  <li><a href="#how-do-i-link-to-genemania">How do I link to GeneMANIA?</a></li>
+  <li><a href="#what-happened-to-the-old-blue-version-of-genemania">What happened to the old, blue version of GeneMANIA?</a></li>
+</ul>
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<h2 id="what-is-genemania">What is GeneMANIA?</h2>
+
+<p>GeneMANIA finds other genes that are related to a set of input genes, using a very large set of functional association data. Association data include protein and genetic interactions, pathways, co-expression, co-localization and protein domain similarity. You can use GeneMANIA to find new members of a pathway or complex, find additional genes you may have missed in your screen or find new genes with a specific function, such as protein kinases. Your question is defined by the set of genes you input.</p>
+
+<h2 id="what-biological-questions-can-genemania-answer">What biological questions can GeneMANIA answer?</h2>
+
+<p><strong>Find more genes like these</strong></p>
+
+<ul>
+  <li>If members of your gene list make up a protein complex, GeneMANIA will return more potential members of the protein complex.</li>
+  <li>If your gene list consists of kinases, GeneMANIA will return more kinase genes.</li>
+  <li>If members of your gene list are involved in a specific disease, GeneMANIA will return more genes putatively involved in the same disease.</li>
+  <li>You want to perform a genetic screen with a phenotypic readout, for example. Enter the genes that you already know are likely to come out of your screen, for instance, genes known to underlie a specific phenotype. GeneMANIA will predict other genes underlying the phenotype, which can then be screened.</li>
+</ul>
+
+<p><strong>Tell me about my gene(s)</strong></p>
+
+<ul>
+  <li>If you enter a single gene, GeneMANIA will find interactions in which your gene participates, within the selected datasets.</li>
+  <li>If you enter a gene list, GeneMANIA will return connections between your genes, within the selected datasets.</li>
+  <li>If you enter a gene list, GeneMANIA will show you in which datasets your gene list is highly connected.</li>
+  <li>If you enter genes from a protein interaction screen, like a pull down or yeast two-hybrid, and select only physical interaction networks, GeneMANIA will predict true positives (those more highly connected) and false positives (those less well connected).</li>
+</ul>
+
+<h2 id="how-do-i-interpret-genemanias-results">How do I interpret GeneMANIA’s results?</h2>
+
+<p>GeneMANIA returns:</p>
+
+<ul>
+  <li>A list of genes with associated scores, including your input genes and predicted related genes.</li>
+  <li>A network that shows the relationships between genes in the list. This is a composite of all of the networks chosen from the database in a way that best connects related genes. Nodes represent genes and links represent networks. Genes can be linked by more than one type of network.</li>
+  <li>A list of networks weighted by their ability to connect related genes. This weighting is a measure of how ‘informative’ the network for the given set of input genes.</li>
+</ul>
+
+<p>Predicted related genes can be, for instance, in the same pathway or complex as your input genes, can be co-expressed or have similar enzymatic function. To determine how predicted genes are related to your input genes, you need to study the links in the network to find out how your input genes are connected to each other and how new genes are related to your input genes.</p>
+
+<h2 id="what-makes-genemania-unique">What makes GeneMANIA unique?</h2>
+
+<p>Other gene function prediction programs are available, including <a href="http://string.embl.de/">STRING</a>, <a href="http://pixie.princeton.edu/pixie/">bioPIXIE</a>,<a href="http://llama.med.harvard.edu/funcassociate/">Funcassociate</a>, and <a href="http://funcoup.sbc.su.se/">FunCoup</a>.</p>
+
+<p>GeneMANIA has the advantage of flexibility, accuracy, and often speed of response over these other systems. In particular, in a competition (on yeast (Mostafavi et al., 2008 <a href="http://genemania.org/pdf/Mostafavi.pdf">PDF</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/18613948">PubMed</a>, <a href="http://genomebiology.com/2008/9/S1/S4">journal</a>) and mouse (Pena-Castillo et al., 2008 <a href="http://genemania.org/pdf/Pena_Castillo.pdf">PDF</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/18613946">PubMed</a>, <a href="http://genomebiology.com/2008/9/S1/S2">journal</a>), GeneMANIA was shown to be more accurate than other gene function prediction methods, and is generally faster, producing predictions within seconds. Because of this speed, GeneMANIA can produce results while you wait. Users can select arbitrary subsets of networks that they want to query and GeneMANIA automatically selects network weights based on the input gene list, generating a network specific to the user’s gene list. Unlike other systems, GeneMANIA provides users with the ability to upload their own network and also compensates for redundancies in the data, so users don’t have to worry about double-counting interactions.</p>
+
+<h2 id="how-does-the-genemania-algorithm-work">How does the GeneMANIA algorithm work?</h2>
+
+<p>GeneMANIA stands for Multiple Association Network Integration Algorithm.</p>
+
+<p>The GeneMANIA algorithm consists of two parts:</p>
+
+<ol>
+  <li>A linear regression-based algorithm that calculates a single composite functional association network from multiple data sources.</li>
+  <li>A label propagation algorithm for predicting gene function given the composite functional association network.</li>
+</ol>
+
+<p>GeneMANIA treats gene function prediction as a binary classification problem. As such, each functional association network derived from the data sources is assigned a positive weight, reflecting the data sources’ usefulness in predicting the function. The weighted average of the association networks is constructed into a function-specific association network. GeneMANIA uses separate objective functions to fit the weights; this simplifies the optimization problem and decreases the run time.</p>
+
+<p>GeneMANIA predicts gene function from the composite network using a variation of the Gaussian field label propagation algorithm that is appropriate for gene function prediction in which there are typically relatively few positive examples. Label propagation algorithms assign a score (the discriminant value) to each node in the network. This score reflects the computed strength of association that the node has to the seed list defining the given function. This value can be thresholded to enable predictions of a given gene function.</p>
+
+<p><strong>GeneMANIA: a real-time multiple association network integration algorithm for predicting gene function</strong></p>
+
+<p>Mostafavi S, Ray D, Warde-Farley D, Grouios C, Morris Q (2008)</p>
+
+<p>[Genome Biology 9: S4.</p>
+
+<p>](http://genomebiology.com/2008/9/S1/S4) <a href="http://www.ncbi.nlm.nih.gov/pubmed/18613948">PubMed Abstract</a> (<a href="http://genemania.org/pdf/Mostafavi.pdf">PDF</a>)</p>
+
+<h2 id="how-do-i-interpret-the-network-weights">How do I interpret the network weights?</h2>
+
+<p>Coming soon.</p>
+
+<h2 id="what-gene-identifiers-does-genemania-recognize">What gene identifiers does GeneMANIA recognize?</h2>
+
+<p>GeneMANIA recognizes Entrez, Ensembl, Standard gene symbols, Uniprot/SwissProt and RefSeq identifiers and unique gene names.</p>
+
+<h2 id="how-are-networks-computed">How are networks computed?</h2>
+
+<p>The process used to create interaction networks from source data for GeneMANIA is described on the <a href="http:/s.genemania.org/network-data-processing/" title="Network data processing">data processing</a> page. This same process is used both to produce the core networks included with GeneMANIA, as well as for networks created from user-uploaded data at the GeneMANIA Website or using the Cytoscape Plugin.</p>
+
+<h2 id="where-can-i-download-genemania-data">Where can I download GeneMANIA data?</h2>
+
+<p>The interaction networks used in the current GeneMANIA website, as well as archived datasets from previous releases are <a href="http://genemania.org/data/">available for download</a> as plain text files. The <a href="http:/s.genemania.org/data/" title="GeneMANIA data archive">data archive</a> page describes the file formats used.</p>
+
+<h2 id="how-do-i-cite-genemania">How do I cite GeneMANIA?</h2>
+
+<p>We recommend citing the NAR webserver issue, as follows.</p>
+
+<p><strong>The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function</strong></p>
+
+<p>Warde-Farley D, Donaldson SL, Comes O, Zuberi K, Badrawi R, Chao P, Franz M, Grouios C, Kazi F, Lopes CT, Maitland A, Mostafavi S, Montojo J, Shao Q, Wright G, Bader GD, Morris Q</p>
+
+<p>[Nucleic Acids Res. 2010 Jul 1;38 Suppl:W214-20</p>
+
+<p>](http://nar.oxfordjournals.org/cgi/content/abstract/38/suppl_2/W214) <a href="http://www.ncbi.nlm.nih.gov/pubmed/20576703">PubMed Abstract</a> (<a href="http://genemania.org/pdf/genemania_prediction_server.pdf">PDF</a>)</p>
+
+<h2 id="how-do-i-link-to-genemania">How do I link to GeneMANIA?</h2>
+
+<p>See the <a href="http:/s.genemania.org/help/linking-to-genemania/" title="Linking to GeneMANIA">instructions</a>.</p>
+
+<h2 id="what-happened-to-the-old-blue-version-of-genemania">What happened to the old, blue version of GeneMANIA?</h2>
+
+<p>That version has been superseded by an improved interface that does not use Flash. The old version is available at <a href="http://old.genemania.org">old.genemania.org</a>.</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
