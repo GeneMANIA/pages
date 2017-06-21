@@ -90,11 +90,11 @@ GeneMANIA recognizes Entrez, Ensembl, Standard gene symbols, Uniprot/SwissProt a
 
 ## How are networks computed?
 
-The process used to create interaction networks from source data for GeneMANIA is described on the [data processing](http:/s.genemania.org/network-data-processing/ "Network data processing") page. This same process is used both to produce the core networks included with GeneMANIA, as well as for networks created from user-uploaded data at the GeneMANIA Website or using the Cytoscape Plugin.
+The process used to create interaction networks from source data for GeneMANIA is described on the [data processing](/network-data-processing/ "Network data processing") page. This same process is used both to produce the core networks included with GeneMANIA, as well as for networks created from user-uploaded data at the GeneMANIA Website or using the Cytoscape Plugin.
 
 ## Where can I download GeneMANIA data?
 
-The interaction networks used in the current GeneMANIA website, as well as archived datasets from previous releases are [available for download](http://genemania.org/data/) as plain text files. The [data archive](http:/s.genemania.org/data/ "GeneMANIA data archive") page describes the file formats used.
+The interaction networks used in the current GeneMANIA website, as well as archived datasets from previous releases are [available for download](http://genemania.org/data/) as plain text files. The [data archive](/data/ "GeneMANIA data archive") page describes the file formats used.
 
 ## How do I cite GeneMANIA?
 
@@ -110,7 +110,7 @@ Warde-Farley D, Donaldson SL, Comes O, Zuberi K, Badrawi R, Chao P, Franz M, Gro
 
 ## How do I link to GeneMANIA?
 
-See the [instructions](http:/s.genemania.org/help/linking-to-genemania/ "Linking to GeneMANIA").
+See the [instructions](/help/#linking-to-genemania "Linking to GeneMANIA").
 
 ## What happened to the old, blue version of GeneMANIA?
 
