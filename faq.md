@@ -104,9 +104,7 @@ We recommend citing the NAR webserver issue, as follows.
 
 Warde-Farley D, Donaldson SL, Comes O, Zuberi K, Badrawi R, Chao P, Franz M, Grouios C, Kazi F, Lopes CT, Maitland A, Mostafavi S, Montojo J, Shao Q, Wright G, Bader GD, Morris Q
 
-[Nucleic Acids Res. 2010 Jul 1;38 Suppl:W214-20
-
-](http://nar.oxfordjournals.org/cgi/content/abstract/38/suppl_2/W214) [PubMed Abstract](http://www.ncbi.nlm.nih.gov/pubmed/20576703) ([PDF](http://genemania.org/pdf/genemania_prediction_server.pdf))
+[Nucleic Acids Res. 2010 Jul 1;38 Suppl:W214-20](http://nar.oxfordjournals.org/cgi/content/abstract/38/suppl_2/W214) [PubMed Abstract](http://www.ncbi.nlm.nih.gov/pubmed/20576703) ([PDF](http://genemania.org/pdf/genemania_prediction_server.pdf))
 
 ## How do I link to GeneMANIA?
 
