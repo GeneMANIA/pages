@@ -10,7 +10,7 @@ layout: page
 The GeneMANIA Cytoscape app brings fast gene function prediction capabilities to the desktop. GeneMANIA identifies the most related genes to a query gene set using a guilt-by-association approach. The app uses a large database of functional interaction networks from multiple organisms and each related gene is traceable to the source network used to make the prediction. Users may add their own interaction networks and expression profile data to complement or override the default data. The app follows the look and feel of the GeneMANIA website, but provides more features for power-users:
 
 *   Number of query genes is limited only by the amount of memory available
-*   Powerful command line tools to automate basic and advanced analysis not available via the website
+*   Powerful [command line tools](command-line-tools) to automate basic and advanced analysis not available via the website
 *   Users can add their own organisms
 *   Integration with the popular Cytoscape network visualization and analysis platform so Cytoscape networks can be imported into GeneMANIA and GeneMANIA results can be used in other Cytoscape analysis. Also, results can be saved in Cytoscape session files for later work, backup or sharing with colleagues.
 
