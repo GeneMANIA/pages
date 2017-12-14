@@ -1,4 +1,11 @@
+---
 
+title: Command line tools
+
+author: admin
+layout: page
+
+---
 
 <style>
 .sampleCode {
@@ -26,11 +33,6 @@ ul.options {
 }
 
 </style>
-
-
-<h1>GeneMANIA Cytoscape Plugin</h1>
-
-<h2>Command Line Tools</h2>
 
 <h3>Installation</h3>
 <p>First, you need to download the <a href="/plugin/release/genemania-cytoscape-plugin-2.18.jar">GeneMANIA JAR file</a>.  If you already installed the plugin through Cytoscape, you can find it in one of the following places:</p>
