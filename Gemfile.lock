@@ -242,6 +242,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-livereload
+  jekyll-redirect-from
 
 BUNDLED WITH
    1.16.0

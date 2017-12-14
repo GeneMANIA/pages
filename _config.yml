@@ -22,3 +22,9 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

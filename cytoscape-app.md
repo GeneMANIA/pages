@@ -1,9 +1,11 @@
 ---
 
 title: Cytoscape app
-
 author: admin
 layout: page
+redirect_from:
+  - /app/
+  - /plugin/
 
 ---
 
