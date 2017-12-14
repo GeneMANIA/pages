@@ -79,8 +79,7 @@ ul.options {
 
 </table>
 
-<a name="gene-sanitizer"/>
-<h2>Gene Sanitizer</h2>
+<h2 id="gene-sanitizer">Gene Sanitizer</h2>
 <div class="section">
 <p>
 Prints out the mappings between the given gene list and GeneMANIA's preferred identifiers.  This tool is useful for checking which of your genes are recognized by GeneMANIA.  The output is a tab-delimited text file containing one mapping per line.  The first item is GeneMANIA's preferred identifier, or nothing, if the identifier that follows isn't recognized.
@@ -133,8 +132,7 @@ YNL145W	MFA2
 
 </div>
 
-<a name="id-importer"/>
-<h2>Id Importer</h2>
+<h2 id="id-importer">Id Importer</h2>
 <div class="section">
 <p>
 Creates a new data set from a set of identifiers and aliases. The identifiers correspond to node labels.  Although the resulting data set is generally treated like an organism, where the given ids denote its genome, it does not have to be an organism.  The identifiers can be anything, as long as they're unique within the data set.</p>
@@ -180,8 +178,7 @@ Creates a new data set from a set of identifiers and aliases. The identifiers co
 </div>
 
 
-<a name="query-runner"/>
-<h2>Query Runner</h2>
+<h2 id="query-runner">Query Runner</h2>
 <div class="section">
 <div>
 Runs one or more predictions and writes the results to disk. Each prediction needs to be provided in the form of a query file. One prediction report is generated for each query file.
@@ -286,8 +283,7 @@ Runs one or more predictions and writes the results to disk. Each prediction nee
 
 </table>
 
-<a name="flat-example"/>
-<h3>Example Query (Flat):</h3>
+<h3 id="flat-example">Example Query (Flat):</h3>
 <div class="filename">yeast-example.query</div>
 <div class="sampleCode">S. Cerevisiae
 CDC27	APC11	APC4	XRS2	RAD54	APC2	RAD52	RAD10	MRE11	APC5
@@ -305,8 +301,7 @@ related-gene-limit
 </div>
 </div>
 
-<a name="cross-validator"/>
-<h2>Cross Validator</h2>
+<h2 id="cross-validator">Cross Validator</h2>
 <div class="section">
 <p>
 Performs k-fold cross validation on the prediction algorithm for a given set of pre-classified genes.  Cross Validator reports on the following evaluation measures: area under the ROC curve (AUC-ROC), area under the precision-recall curve (AUC-PR), and precision at fixed recall.</p>
@@ -399,9 +394,7 @@ Performs k-fold cross validation on the prediction algorithm for a given set of 
 </tr>
 
 </table>
-
-<a name="validation-query-format"/>
-<h3>Query File Format:</h3>
+<h3 id="validation-query-format">Query File Format:</h3>
 <p>
 Multiple gene sets may be used during cross validation.  Each gene set should be on its own line using the format below:
 </p>
@@ -423,8 +416,7 @@ This query file only lists positive examples of genes.  Use the option <code>--a
 GO:0022626      +       RPS21A  RPS21B  HEF3    RPS8B   RDN18-2 RDN18-1 RPL9A   RPL9B   RPS11B  RPS11A  RPS29A  RPS29B    RPS14A  RPL1A   RPL1B   YGR054W RPS19B  RPS19A  RPS6B   RDN5-1  RDN5-2  RDN5-3  RDN5-4  RDN5-5  RDN5-6  RPL24B    RPL8B   RPL8A   RPL24A  RPS22A  RPS12   RPS22B  RPL18A  FES1    RPL10   RPS8A   RPL41A  RPL42A  ASC1    RPS18A    RPS18B  SQT1    RPL14A  RPL31A  RPL31B  RPL14B  RPS2    RPL37B  RPL16B  RPL16A  RPL37A  RPS17A  RPS17B  RPS27B    RPL27B  RPL27A  RPL5    RPL3    RPL7B   RPL7A   NMD3    RPL41B  RPL11B  RPL11A  RPP2A   TIF5    RPP2B   RPL20B    RPL20A  RPS16B  RPL17A  RPL17B  RPS16A  RPL26A  RPL26B  RPS7A   RPL6A   RPL6B   RPS28B  RPS28A  RDN25-1 TEF1      SIS1    RRP14   RPS31   REI1    RDN25-2 JJJ1    RPL42B  RPL35A  RPL35B  RPL18B  RPS5    RPS3    RPS25A  RPS25B    RPS15   RPL13A  RPL13B  RDN58-2 RDN58-1 RPS9B   RPL22A  RPL22B  RPS9A   RPL36A  RPS4A   RPS4B   RPL36B  RPS30B    RPS20   RPS30A  RPS26A  NAT1    RPS26B  RPL19B  NAT5    RPL19A  GCN1    GCN2    RPS7B   RPS6A   RPL4B   RPL4A     ARX1    RPL21A  RPL21B  RPS13   RPP1A   RPP1B   RPS23B  RPL23B  RPL23A  RPS23A  RPL40A  RPL40B  RPS14B  ARD1      MAP1    NIP7    RPS10A  RPL29   RPL28   RPL25   GCN20   RPL15B  RPL15A  RPS10B  RPS0A   RPS0B   RLI1    RPL34B    RPL34A  RPL43A  RPL43B  RPS24B  RPS24A  FUN12   RPS27A  RPL2A   RPL2B   PAT1    RPL38   RPL39   STM1    RPL32     RPP0    RPL30   RPS1B   RPS1A   RPL33B  RPL12B  RPL12A  RPL33A</div>
 </div>
 
-<a name="network-assessor"/>
-<h2>Network Assessor</h2>
+<h2 id="network-assessor">Network Assessor</h2>
 <div class="section">
 <p>
 Assesses the value of a set of networks by performing k-fold cross validation against a baseline network set, as well as the networks to assess. The percentage error of each validation measure is computed for each query in the validation set and reported.
@@ -535,8 +527,7 @@ Network Assessor uses the same <a href="#validation-query-format">query file for
 </p>
 </div>
 
-<a name="network-importer"/>
-<h2>Network Importer</h2>
+<h2 id="network-importer">Network Importer</h2>
 <div class="section">
 <p>
 Imports network/profile data from a file into a GeneMANIA data set.
@@ -614,8 +605,7 @@ Imports network/profile data from a file into a GeneMANIA data set.
 </table>
 </div>
 
-<a name="validation-set-maker"/>
-<h2>Validation Set Maker</h2>
+<h2 id="validation-set-maker">Validation Set Maker</h2>
 <div class="section">
 <p>
 Produces sets of genes based on Gene Ontology (GO) annotations for use in cross validation. One gene set is created for each GO category in the ontology. More specific annotations are propagated up to all genes associated with any of the parent annotations.
@@ -665,8 +655,7 @@ Produces sets of genes based on Gene Ontology (GO) annotations for use in cross 
 
 <h2>Common Options</h2>
 <div class="section">
-<a name="available-organisms"/>
-<h3>Organisms:</h3>
+<h3 id="available-organisms">Organisms:</h3>
 <table class="options">
 <tr>
 <th>Name</th>
@@ -691,9 +680,7 @@ Produces sets of genes based on Gene Ontology (GO) annotations for use in cross 
 <td>S. Cerevisiae</td><td>4932</td>
 </tr>
 </table>
-
-<a name="available-networks"/>
-<h3>Networks</h3>
+<h3 id="available-networks">Networks</h3>
 <p>
 Networks may be specified by type or by name.  To get a full listing of network names, use the option <code>--list-networks</code>.
 </p>
@@ -744,8 +731,7 @@ Networks may be specified by type or by name.  To get a full listing of network 
 
 </table>
 
-<a name="available-combining-methods"/>
-<h3>Weighting Methods</h3>
+<h3 id="available-combining-methods">Weighting Methods</h3>
 <table class="options">
 <tr>
 <th class="option">automatic</th>
