@@ -8,9 +8,6 @@
     overflow: auto;
 }
 
-table.usage {
-	width: 600px;
-}
 
 table.usage td {
 	white-space: nowrap;
