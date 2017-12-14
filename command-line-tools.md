@@ -35,7 +35,7 @@ ul.options {
 </style>
 
 <h3>Installation</h3>
-<p>First, you need to download the <a href="/plugin/release/genemania-cytoscape-plugin-2.18.jar">GeneMANIA JAR file</a>.  If you already installed the plugin through Cytoscape, you can find it in one of the following places:</p>
+<p>First, you need to download the <a href="http://genemania.org/plugin/release/genemania-cytoscape-plugin-2.18.jar">GeneMANIA JAR file</a>.  If you already installed the plugin through Cytoscape, you can find it in one of the following places:</p>
 <ul>
 <li><strong>Unix/Mac</strong>: <code>~/.cytoscape/<em>Cytoscape Version</em>/plugins/GeneMANIA-<em>Version</em>/</code></li>
 <li><strong>Windows</strong>: <code>My Documents\.cytoscape\<em>Cytoscape Version</em>\plugins\GeneMANIA-<em>Version</em>\</code></li>
