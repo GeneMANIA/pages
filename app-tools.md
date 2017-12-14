@@ -3,26 +3,10 @@
 <style>
 .sampleCode {
     font-family: monospace;
-    border: 2px dotted #d0d0d0;
     white-space: pre;
     overflow: auto;
 }
 
-
-table.usage td {
-	white-space: nowrap;
-	overflow: auto;
-}
-
-table.options {
-	border: 2px solid #d0d0d0;
-}
-
-table.options td, table.options th {
-	border: 2px solid #e0e0e0;
-	padding-left: 1em;
-	padding-right: 1em;
-}
 
 th.option {
 	font-family: monospace;
@@ -35,15 +19,10 @@ em.parameter {
 
 div.filename {
 	font-family: monospace;
-	font-weight: bold;
 }
 
 ul.options {
 	font-family: monospace;
-}
-
-div.section {
-	padding-left: 2em;
 }
 
 </style>
