@@ -25,6 +25,7 @@ layout: page
   * GeneMANIA works best if most of the input genes are functionally related. If they are not, a disconnected network will result and the network weighting will not be optimal. It does not matter which function they are related by, as long as that function is captured somehow by some functional association networks in the GeneMANIA system.
   * If your query list consists of 6 or more genes, GeneMANIA will calculate gene list-specific weights. If your query list has less than 6 genes, GeneMANIA will make gene function predictions based on GO annotations patterns.
   * GeneMANIA will be slower with an input gene list of more than 50 genes; if you have such large gene lists, we recommend using a gene list of no more than 100 genes. The GeneMANIA [Cytoscape app](/cytoscape-app) is capable of handling larger gene lists.
+  * The number of resultant genes, the number of resultant attributes, and the weighting method can be configured in the advanced options.  Access the advanced options by clicking the ellipsis ("...") in the search bar.
 
 ## GeneMANIA network categories
 
