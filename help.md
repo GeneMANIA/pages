@@ -121,7 +121,7 @@ The linking URL in its simplest form is `http://genemania.org/link?o=<tid>&g=<g
 
   * `<organism>` : organism name or common name (e.g. `human` or `homo_sapiens`) without punctuation (e.g. `bakers_yeast` not `baker's_yeast`)
   * `<tid>` : NCBI taxonomy id for organism (A. thaliana=3702, C. elegans=6239, D. melanogaster=7227, H. sapiens=9606, M. musculus=10090, S. cerevisiae=4932)
-  * `<genes>` : one or more gene symbols separated by pipes ("|") -- n.b. pipes must be escaped as "%7C" (e.g. "pcna%7Crad51" for "pcna|rad51")
+  * `<genes>` : one or more gene symbols separated by pipes ("|") -- n.b. pipes must be URL-encoded as "%7C" (e.g. "pcna%7Crad51" for "pcna|rad51")
 
 **Examples of the simplest form:**
 
