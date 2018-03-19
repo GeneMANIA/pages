@@ -82,7 +82,16 @@ Each network data source is represented as a weighted interaction network where 
 
 The GeneMANIA database consists of genomics and proteomics data from a variety of sources, including data from gene and protein expression profiling studies and primary and curated molecular interaction networks and pathways. GeneMANIA relies on the following data sources:
 
-[<img class="alignnone size-full wp-image-155" title="GEO" src="/wp-content/uploads/2011/05/geo.gif" alt="" width="146" height="67" />](http://www.ncbi.nlm.nih.gov/geo) [ <img class="alignnone size-full wp-image-156" title="BioGRID" src="/wp-content/uploads/2011/05/biogrid.png" alt="" width="150" height="37" />](http://www.thebiogrid.org/)[<img class="alignnone size-full wp-image-157" title="EMBL-EBI" src="/wp-content/uploads/2011/05/embl-ebi.png" alt="" width="150" height="62" />](http://www.ebi.ac.uk/interpro) [<img class="alignnone size-full wp-image-158" title="Pfam" src="/wp-content/uploads/2011/05/pfam.png" alt="" width="150" height="59" />](http://pfam.sanger.ac.uk/) [<img class="alignnone size-full wp-image-159" title="Ensembl" src="/wp-content/uploads/2011/05/ensembl.png" alt="" width="150" height="40" />](http://www.ensembl.org/) [<img class="alignnone size-full wp-image-160" title="NCBI" src="/wp-content/uploads/2011/05/ncbi.gif" alt="" width="130" height="45" />](http://www.ncbi.nlm.nih.gov/) [<img class="alignnone size-full wp-image-161" title="MGI" src="/wp-content/uploads/2011/05/mgi.gif" alt="" width="115" height="61" />](http://www.informatics.jax.org/) [<img class="alignnone size-full wp-image-162" title="I2D" src="/wp-content/uploads/2011/05/i2d.jpg" alt="" width="150" height="23" />](http://www.informatics.jax.org/) [<img class="alignnone size-full wp-image-163" title="InParanoid" src="/wp-content/uploads/2011/05/inp7.png" alt="" width="150" height="36" />](http://inparanoid.sbc.su.se/) [<img class="alignnone size-full wp-image-164" title="Pathway Commons" src="/wp-content/uploads/2011/05/pathway-commons.png" alt="" width="266" height="77" />](http://www.pathwaycommons.org/)
+- [GEO](http://www.ncbi.nlm.nih.gov/geo)
+- [BioGRID](http://www.ncbi.nlm.nih.gov/geo)
+- [EMBL-EBI](http://www.ebi.ac.uk/interpro)
+- [Pfam](http://pfam.sanger.ac.uk/)
+- [Ensembl](http://www.ensembl.org/)
+- [NCBI](http://www.ncbi.nlm.nih.gov/)
+- [MGI](http://www.informatics.jax.org/)
+- [I2D](http://www.informatics.jax.org/)
+- [InParanoid](http://inparanoid.sbc.su.se/)
+- [Pathway Commons](http://www.pathwaycommons.org/)
 
 We maintain a [complete list of networks currently in the GeneMANIA system](/networks/ "List of networks used in GeneMANIA").
 
