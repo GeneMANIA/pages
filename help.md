@@ -93,7 +93,7 @@ The GeneMANIA database consists of genomics and proteomics data from a variety o
 - [InParanoid](http://inparanoid.sbc.su.se/)
 - [Pathway Commons](http://www.pathwaycommons.org/)
 
-We maintain a [complete list of networks currently in the GeneMANIA system](/networks/ "List of networks used in GeneMANIA").
+The complete list of networks currently in the GeneMANIA system is available in the [advanced options of the GeneMANIA query interface](http://genemania.org) (click the ellipsis -- "..." -- in the search bar).
 
 ## Functional Enrichment Analysis
 
