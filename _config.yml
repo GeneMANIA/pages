@@ -17,7 +17,7 @@ paginate:            5
 # About/contact
 author:
   name:              GeneMANIA
-  url:               http://genemania.org
+  url:               https://genemania.org
   email:             genemania_dev@googlegroups.com
 
 # Custom vars
