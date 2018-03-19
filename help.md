@@ -121,12 +121,12 @@ The linking URL in its simplest form is `http://genemania.org/link?o=<tid>&g=<g
 
   * `<organism>` : organism name or common name (e.g. `human` or `homo_sapiens`) without punctuation (e.g. `bakers_yeast` not `baker's_yeast`)
   * `<tid>` : NCBI taxonomy id for organism (A. thaliana=3702, C. elegans=6239, D. melanogaster=7227, H. sapiens=9606, M. musculus=10090, S. cerevisiae=4932)
-  * `<genes>` : one or more gene symbols separated by pipes (&#8220;|&#8221;)
+  * `<genes>` : one or more gene symbols separated by pipes ("|") -- n.b. pipes must be escaped as "%7C" (e.g. "pcna%7Crad51" for "pcna|rad51")
 
 **Examples of the simplest form:**
 
   * one gene : `http://genemania.org/link?o=3702&g=rad50`
-  * multiple genes : `http://genemania.org/link?o=3702&g=PHYB|ELF3|COP1|SPA1|FUS9`
+  * multiple genes : `http://genemania.org/link?o=3702&g=PHYB%7CELF3%7CCOP1%7CSPA1%7CFUS9`
 
 **Optional Parameters:**
 
@@ -148,7 +148,7 @@ If no optional parameters are provided, GeneMANIA assumes the default values:`m=
 
 The following query runs the GeneMANIA algorithm for A. thaliana using 6 genes as input, the &#8220;average&#8221; method and returns 50 more genes:
 
-`http://genemania.org/link?o=3702&g=DET1|HY5|CIP1|CIP8|PHYA|HFR1&m=average&r=50`
+`http://genemania.org/link?o=3702&g=DET1%7CHY5%7CCIP1%7CCIP8%7CPHYA%7CHFR1&m=average&r=50`
 
 The following query runs the GeneMANIA algorithm for A. thaliana&#8217;s CIP1 gene using the &#8220;molecular process based&#8221; method and returns 101 genes:
 
